@@ -1,3 +1,6 @@
+// COPY AND PASTE THIS INTO THE CONSOLE OF THE GAME // 
+// CREATED BY SCR1PP3D //
+
 function KeyboardInputManager() {
     this.events = {}, window.navigator.msPointerEnabled ? (this.eventTouchstart = "MSPointerDown", this.eventTouchmove = "MSPointerMove", this.eventTouchend = "MSPointerUp") : (this.eventTouchstart = "touchstart", this.eventTouchmove = "touchmove", this.eventTouchend = "touchend"), this.listen()
 }
